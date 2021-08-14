@@ -1,0 +1,384 @@
+/* custom font used */
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local(Yanone Kaffeesatz), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local(News Cycle), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  margin: 0; 
+  padding: 0;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .80em arial, sans-serif;
+}
+
+p { 
+	padding: 0px;
+	line-height: 1.7em;
+}
+
+/*img { 
+  border: 0;
+}*/
+
+
+h1, h2, h3, h4, h5, h6 {
+	font: 250% 'Yanone Kaffeesatz', arial, sans-serif;
+	margin: 0 0 0px 0;
+	padding: 0 0 5px 0;
+}
+
+h2 { 
+  font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
+  margin: 0;
+  padding: 0 0 8px 0;
+}
+
+h3 { 
+  font: bold 150% arial, sans-serif;
+}
+
+h4, h5, h6 { 
+  margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 110% arial, sans-serif;
+  line-height: 1.5em;
+}
+
+h5, h6 { 
+  font: italic 95% arial, sans-serif;
+  padding-bottom: 15px;
+}
+
+a, a:hover { 
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover { 
+  text-decoration: underline;
+}
+
+ul { 
+  margin: 2px 0 22px 17px;
+}
+
+ul li { 
+  list-style-type: circle;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 5px;
+}
+
+ol { 
+  margin: 8px 0 22px 20px;
+}
+
+ol li { 
+  margin: 0 0 11px 0;
+}
+
+#main, #header, #logo, #menubar, #site_content, #footer { 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main {
+	width: 950px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+
+#header { 
+  width: 950px;
+  height: 105px;
+}
+
+#logo { 
+  width: 500px;
+  float: left;
+  height: 100px;
+  background: transparent;
+  padding: 0 0 10px 10px;
+}
+
+#logo h1 { 
+  /*font: normal 350% 'Yanone Kaffeesatz', arial, sans-serif;
+  padding: 45px 0 0 17px;*/
+  font: normal 350% 'Times New Roman', arial, sans-serif;
+  padding: 50px 0 0 15px;
+}
+
+#site_content { 
+  width: 950px;
+  overflow: hidden;
+  margin: 4px auto 0 auto;
+  padding: 0;
+}
+
+#left_content { 
+  float: left;
+  text-align: left;
+  width: 444px;
+  padding: 20px 0 5px 25px;
+  margin: 0;
+}
+
+#right_content { 
+  float: right;
+  width: 450px;
+  padding: 0;
+  min-height: 450px;
+}
+
+#right_content img { 
+  float: left;
+  border-width: 0px;
+}
+  
+#footer { 
+  width: 930px;
+  font: normal 80% arial, sans-serif;
+  padding: 50px 20px 5px 0;
+  text-align: right; 
+  background: transparent;
+}
+
+#footer p { 
+  padding: 0 0 10px 0;
+}
+
+#footer a {
+  color: #800000;
+  font: bold 100% arial, sans-serif;
+}
+
+#footer a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+
+/* stylesheet for sooperFish by www.sooperthemes.com -- author: jurriaan roelofs */
+html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+  width: 180px;}
+
+html body ul.sf-menu ul ul { 
+  margin: 0 0 0 180px;}
+
+ul.sf-menu,ul.sf-menu * { 
+  margin: 0;
+  padding: 0;}
+
+ul.sf-menu { 
+  display: block;
+  position: relative;}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;}
+  
+ul.sf-menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ }
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;}
+  
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ }
+
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;}
+  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;}
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;}
+  
+
+/* theming the menu */
+#navi { 
+  width: 400px;
+  margin: 1px auto 0 auto;
+  float: right;
+  padding: 35px 0 0 0;} 
+  
+ul#nav { 
+  float: right;
+  margin: 25px 10px 0 0;}
+
+ul#nav li a {
+  font: normal 150% 'News Cycle', 'Times New Roman', sans-serif;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  z-index: 10;
+  display: block;
+  float: left;
+  height: 30px;
+  padding:5px 14px 6px 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+ul#nav ul { 
+  margin-top: 40px;
+  padding-bottom: 10px;}
+  
+.cx1 {
+	font: bold 18px sans-serif;
+	color: #000
+}
+
+.cx2 {
+	font-size: 37px
+}
+
+.cx3 {
+	font: 16px 'Yanone Kaffeesatz', sans-serif;
+	color: #000;
+}
+
+.cx3 a {
+	font: 16px 'Yanone Kaffeesatz', sans-serif;
+	color: #800000;
+}
+
+.cx3 a:hover {
+	text-decoration: underline;
+}
+
+.cx4 a {
+	font: 16px 'Yanone Kaffeesatz', sans-serif;
+	color: #800000;
+}
+
+.section_heading
+{
+	font-family: arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform:capitalize;
+	/*color: #3D373C;*/
+	color: #FFF;
+	width: 950px;
+	height: 40;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #818181;
+	letter-spacing: 1px;
+	width: 950px;
+  	overflow: hidden;
+  	/*margin: 4px auto 0 auto;*/
+	margin: 0;
+  	padding: 0;
+}
+
+.table_spec
+{
+	width: 950px;
+	background-color: #FFF;
+}
+
+.work_spec
+{
+	height: 160px;
+}
+
+.table_image_spec
+{
+	width: 300px;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+}
+
+.table_image_spec img
+{
+	border-width: 1px;
+	border-color: Gray;
+	border-style: solid;
+	border-radius: 5px;
+	margin: 0px;
+	width: 250px;
+}
+
+.my_content_align
+{
+	vertical-align: middle;
+	text-align:justify;
+	font-size: 12px;
+}
+
+.my_content_align a {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.paper_heading {
+	font: bold 16px arial;
+}
+
+.author {
+	font: normal 16px "Times New Roman";
+}
+
+.publish {
+  font: normal 12px arial, sans-serif;
+}
+
+.publish a {
+  /*color: #6a07be;*/
+  font: bold 12px arial, sans-serif;
+}
+
+.publish b {
+ 	font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 40;
+	text-align: center;
+	background-color: #818181;
+	width: 950px;
+  	overflow: hidden;
+}
