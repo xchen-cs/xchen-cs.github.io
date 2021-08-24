@@ -1,0 +1,69 @@
+/* light theme */
+body { 
+  background: #EEE url(../images/light.png);
+  color: #444;}
+
+h2, h6 { 
+  color: #07E5F9;}
+
+#site_content { 
+  background: #FEFEFC;}
+
+#left_content ul li { 
+  background: url(../images/light_bullet.png) no-repeat left center;}
+ 
+.form_settings .submit { 
+  background: #444;
+  text-shadow: 1px 1px #000;
+  color: #FFF;
+}
+
+.form_settings input, .form_settings textarea, .form_settings select { 
+  border-color: #777;
+}
+
+
+ul#nav li a {
+/*  text-shadow: 1px 1px #FFF;*/
+  color: #000;}
+
+#logo a:hover {
+	text-decoration: underline;
+}
+
+ul#nav li.selected a,
+ul#nav li.selected ul a:hover {
+  color: #FFF;
+  text-shadow: none;
+  background-color: #D5D5D5;
+  border-radius: 8px;
+}
+
+ul#nav li a:hover,
+ul#nav ul li a:hover, 
+ul#nav ul li a:focus {
+  color: #FFF;
+  text-shadow: none;
+  background-color: #818181;
+  border-radius: 8px;
+}
+
+ul#nav ul { 
+  background: #DDD;
+}
+
+a, a:hover { 
+  /*color: #F6007F;}*/
+  /*color: #0080FF;*/
+  color: #800000;
+}
+
+ul.thumbs li.selected a.thumb {
+  background: #F6007F;
+}
+
+h1, h3, h4, h5, a:hover, #logo h1, #logo h1 a:hover, 
+.form_settings input, .form_settings textarea,
+ul#nav li.selected ul a { 
+  color: #555;
+}
