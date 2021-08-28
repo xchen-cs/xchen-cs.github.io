@@ -28,6 +28,22 @@
 #award {
   color: rgb(239,131,128);
 }
+#intro_text {
+  float: left;
+}
+#intro_image {
+  padding: 24px;
+  float: left;
+}
+#intro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#portrait {
+  width: auto;
+  height: 150px;
+}
 .nodot {
   list-style-type: disc;
   padding-left: 20px;
@@ -60,6 +76,8 @@ a, #iemail {
 <body>
 <div id="wrap">
 
+<div id="intro">
+<div id="intro_text">
 <h1>Xiang Chen</h1>
 <div>I like geometry and physics 🍺</div>
 <div id="links">
@@ -68,6 +86,14 @@ a, #iemail {
   <span style="cursor: pointer; text-decoration: underline;" id="iemail">email</span>
 </div>
 <div id="demail"></div> <!-- will reveal email -->
+<div>515, Mengminwei Building</div>
+<div>Dept. of Computer Science</div>
+<div>Zhejiang University</div>
+</div>
+<div id="intro_image">
+  <img id="portrait" src="images/ckc.jpg">
+</div>
+</div>
 
 
 <h2>About Me</h2>
